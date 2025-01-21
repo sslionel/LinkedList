@@ -1,0 +1,4 @@
+<!-- always follow the following flow to solve LL questions -->
+ <!-- ->write the code
+ <!-- ->check for null pointer exception eg: NULL->data, NULL->next and NULL->prev these all comes under it -->
+<!-- ->keep thinking of edge cases eg: what would happend if LL is empty , what would happend if LL has single node, what would happend if LL has even number of nodes,what would happend if LL has odd number of nodes -->
