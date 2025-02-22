@@ -40,7 +40,8 @@ void solve(Node* head,int& carry){
 Node* add1(Node* head,int& carry){
     solve(head,carry);
     if(carry){
-        Node* newHead = new Node(carry);
+        //insert at head
+        Node* newHead = new Node(carry); //add a new Node at head;
         newHead->next = head;
         head=newHead;
     }
